@@ -26,7 +26,7 @@ public class Product implements Comparable<Product>{
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getName() {
+	public int getName() {
 		return name;
 	}
 	public void setName(String name) {
