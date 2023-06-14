@@ -15,6 +15,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 @Entity
 @Document(collection = "Product")
+//sorting internal call comparable
 public class Product implements Comparable<Product>{
 
     @Id
